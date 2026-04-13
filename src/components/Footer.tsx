@@ -9,7 +9,7 @@ const Footer = () => {
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center gap-2 mb-6">
               <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary text-white font-bold">J</div>
-              <span className="text-xl font-bold tracking-tight text-foreground">Julia Cleaning</span>
+              <span className="text-xl font-bold tracking-tight text-foreground">Julia Conciergerie</span>
             </div>
             <p className="text-foreground/60 max-w-sm mb-6">
               Votre partenaire de confiance pour un intérieur serein et impeccable à Aigues-Mortes et ses environs. 

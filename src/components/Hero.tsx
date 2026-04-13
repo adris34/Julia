@@ -26,13 +26,13 @@ const Hero = () => {
         </div>
 
         <h1 className="text-4xl font-extrabold tracking-tight text-foreground sm:text-5xl md:text-6xl lg:text-7xl">
-          Ménage Professionnel à <br className="hidden md:block" />
-          <span className="text-primary italic">Aigues-Mortes</span>
+          Conciergerie & Ménage <br className="hidden md:block" />
+          <span className="text-primary italic">d'Excellence</span>
         </h1>
         
         <p className="mx-auto mt-6 max-w-2xl text-lg text-foreground/70 sm:text-xl">
-          Services de nettoyage à domicile, fin de séjour et états des lieux. 
-          Une propreté impeccable pour locataires et propriétaires, en toute sérénité.
+          La solution complète pour vos locations courte durée et votre domicile à Aigues-Mortes. 
+          Gestion locative, entretien et hospitalité pour une sérénité totale.
         </p>
 
         <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">

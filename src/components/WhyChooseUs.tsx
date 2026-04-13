@@ -1,26 +1,26 @@
 import React from 'react';
-import { ShieldCheck, Calendar, UserCheck, Leaf } from 'lucide-react';
+import { ShieldCheck, Calendar, UserCheck, Sparkles } from 'lucide-react';
 
 const argumentsList = [
   {
-    title: "Professionnalisme",
-    desc: "Une rigueur exceptionnelle et une attention particulière aux détails pour chaque pièce.",
+    title: "Expertise Airbnb",
+    desc: "Nous maîtrisons les codes de l'hospitalité pour maximiser vos notes voyageurs.",
     icon: <ShieldCheck className="h-6 w-6" />
   },
   {
-    title: "Flexibilité totale",
-    desc: "Nous nous adaptons à votre emploi du temps et à vos besoins spécifiques, 7j/7.",
+    title: "Disponibilité 7j/7",
+    desc: "Un service réactif pour gérer les imprévus et les arrivées tardives sans stress.",
     icon: <Calendar className="h-6 w-6" />
   },
   {
-    title: "Confiance & Proximité",
-    desc: "Une équipe locale, fiable et discrète, basée directement à Aigues-Mortes.",
-    icon: <UserCheck className="h-6 w-6" />
+    title: "Propreté Hôtelière",
+    desc: "Un niveau de finition digne des plus grands hôtels pour vos invités.",
+    icon: <Sparkles className="h-6 w-6" />
   },
   {
-    title: "Eco-responsable",
-    desc: "Utilisation de produits de nettoyage respectueux de l'environnement sur demande.",
-    icon: <Leaf className="h-6 w-6" />
+    title: "Gestion de proximité",
+    desc: "Une équipe sur place à Aigues-Mortes pour une intervention en moins de 30min.",
+    icon: <UserCheck className="h-6 w-6" />
   }
 ];
 

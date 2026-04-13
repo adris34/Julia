@@ -9,7 +9,7 @@ const Navbar = () => {
           <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-primary text-white shadow-lg shadow-primary/20">
             <span className="text-xl font-bold">J</span>
           </div>
-          <span className="text-xl font-bold tracking-tight text-foreground">Julia Cleaning</span>
+          <span className="text-xl font-bold tracking-tight text-foreground">Julia Conciergerie</span>
         </div>
         
         <div className="hidden items-center gap-8 md:flex">

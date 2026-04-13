@@ -1,23 +1,41 @@
 import React from 'react';
-import { Home, Key, ClipboardCheck, ArrowRight } from 'lucide-react';
+import { Home, Key, ClipboardCheck, Bell, BedDouble, Sparkles, ArrowRight } from 'lucide-react';
 
 const services = [
   {
     title: "Ménage régulier",
-    description: "Un entretien quotidien ou hebdomadaire de votre domicile pour une maison toujours impeccable.",
+    description: "Un entretien quotidien ou hebdomadaire pour une maison toujours superbe.",
     icon: <Home className="h-8 w-8 text-primary" />,
     link: "https://wa.me/NUMERO"
   },
   {
-    title: "Nettoyage fin de séjour",
-    description: "Idéal pour les locations saisonnières. Nous préparons votre logement pour les prochains arrivants.",
+    title: "Ménage fin de séjour",
+    description: "Nettoyage complet entre deux locations pour une hygiène irréprochable.",
+    icon: <Sparkles className="h-8 w-8 text-primary" />,
+    link: "https://wa.me/NUMERO"
+  },
+  {
+    title: "Gestion des clés",
+    description: "Accueil physique des voyageurs, remise des clés et présentation du logement.",
     icon: <Key className="h-8 w-8 text-primary" />,
     link: "https://wa.me/NUMERO"
   },
   {
-    title: "État des lieux",
-    description: "Nettoyage approfondi avant l'entrée ou la sortie des locataires pour garantir un constat serein.",
+    title: "Blanchisserie professionnelle",
+    description: "Gestion complète du linge de maison : lavage, séchage et mise en place.",
+    icon: <BedDouble className="h-8 w-8 text-primary" />,
+    link: "https://wa.me/NUMERO"
+  },
+  {
+    title: "États des lieux",
+    description: "Contrôle minutieux à l'arrivée et au départ pour protéger votre bien.",
     icon: <ClipboardCheck className="h-8 w-8 text-primary" />,
+    link: "https://wa.me/NUMERO"
+  },
+  {
+    title: "Assistance voyageurs",
+    description: "Intervention rapide en cas de petit souci technique durant le séjour.",
+    icon: <Bell className="h-8 w-8 text-primary" />,
     link: "https://wa.me/NUMERO"
   }
 ];
@@ -27,13 +45,13 @@ const Services = () => {
     <section id="services" className="bg-white py-24">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mb-16 text-center">
-          <h2 className="text-3xl font-extrabold tracking-tight text-foreground sm:text-4xl">Nos Services</h2>
+          <h2 className="text-3xl font-extrabold tracking-tight text-foreground sm:text-4xl">Nos Services d'Excellence</h2>
           <p className="mt-4 text-lg text-foreground/60">
-            Une gamme complète de services de nettoyage adaptés à vos besoins.
+            Une gestion complète pour votre tranquillité et le confort de vos invités.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
+        <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
           {services.map((service, index) => (
             <div 
               key={index} 
@@ -50,7 +68,7 @@ const Services = () => {
                 href={service.link}
                 className="mt-auto inline-flex items-center gap-2 font-semibold text-primary group/link"
               >
-                <span>En savoir plus</span>
+                <span>Demander un devis</span>
                 <ArrowRight className="h-4 w-4 transition-transform group-hover/link:translate-x-1" />
               </a>
             </div>
