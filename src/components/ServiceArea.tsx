@@ -5,7 +5,7 @@ const cities = ["Aigues-Mortes", "Le Grau-du-Roi", "La Grande-Motte"];
 
 const ServiceArea = () => {
   return (
-    <section id="zone" className="bg-white py-24">
+    <section id="zone" className="bg-background py-24">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="rounded-3xl bg-slate-900 px-6 py-16 sm:px-16 md:py-24 text-center relative overflow-hidden">
           {/* Subtle grid pattern */}
@@ -16,7 +16,7 @@ const ServiceArea = () => {
               Nous intervenons chez vous
             </h2>
             <p className="mx-auto mt-6 max-w-2xl text-lg text-slate-400">
-              Julia Cleaning se déplace sur tout le secteur d'Aigues-Mortes 
+              Julia Conciergerie se déplace sur tout le secteur d'Aigues-Mortes 
               et les stations balnéaires voisines pour vous offrir le meilleur service.
             </p>
             

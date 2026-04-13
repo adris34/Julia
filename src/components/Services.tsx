@@ -42,7 +42,7 @@ const services = [
 
 const Services = () => {
   return (
-    <section id="services" className="bg-white py-24">
+    <section id="services" className="bg-background py-24">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mb-16 text-center">
           <h2 className="text-3xl font-extrabold tracking-tight text-foreground sm:text-4xl">Nos Services d'Excellence</h2>
@@ -55,7 +55,7 @@ const Services = () => {
           {services.map((service, index) => (
             <div 
               key={index} 
-              className="group relative flex flex-col items-start rounded-2xl border border-border bg-white p-8 transition-all hover:shadow-xl hover:-translate-y-1 hover:border-primary/20"
+              className="group relative flex flex-col items-start rounded-2xl border border-border bg-card p-8 transition-all hover:shadow-xl hover:-translate-y-1 hover:border-primary/20"
             >
               <div className="mb-6 rounded-xl bg-primary/5 p-3 transition-colors group-hover:bg-primary/10">
                 {service.icon}

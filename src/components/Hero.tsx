@@ -11,15 +11,15 @@ const Hero = () => {
 
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center relative z-10">
         <div className="flex flex-wrap justify-center gap-3 mb-8">
-          <span className="inline-flex items-center gap-1.5 rounded-full bg-white px-4 py-1.5 text-xs font-semibold text-primary shadow-sm border border-primary/10">
+          <span className="inline-flex items-center gap-1.5 rounded-full bg-card px-4 py-1.5 text-xs font-semibold text-primary shadow-sm border border-primary/10">
             <MapPin className="h-3 w-3" />
             Aigues-Mortes & alentours
           </span>
-          <span className="inline-flex items-center gap-1.5 rounded-full bg-white px-4 py-1.5 text-xs font-semibold text-primary shadow-sm border border-primary/10">
+          <span className="inline-flex items-center gap-1.5 rounded-full bg-card px-4 py-1.5 text-xs font-semibold text-primary shadow-sm border border-primary/10">
             <Clock className="h-3 w-3" />
             Disponible 7j/7
           </span>
-          <span className="inline-flex items-center gap-1.5 rounded-full bg-white px-4 py-1.5 text-xs font-semibold text-primary shadow-sm border border-primary/10">
+          <span className="inline-flex items-center gap-1.5 rounded-full bg-card px-4 py-1.5 text-xs font-semibold text-primary shadow-sm border border-primary/10">
             <Zap className="h-3 w-3" />
             Intervention rapide
           </span>
@@ -46,7 +46,7 @@ const Hero = () => {
           
           <a
             href="#services"
-            className="inline-flex items-center gap-2 rounded-full bg-white border border-border px-8 py-4 text-lg font-semibold text-foreground transition-all hover:bg-white/80 w-full sm:w-auto"
+            className="inline-flex items-center gap-2 rounded-full bg-card border border-border px-8 py-4 text-lg font-semibold text-foreground transition-all hover:bg-card/80 w-full sm:w-auto"
           >
             Voir nos services
           </a>
